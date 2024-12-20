@@ -1,0 +1,528 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: wheat;
+}
+.home-section{width: 100%;height: 10px;z-index: 20px;}
+.rll{width: 280px;height: 190px;}
+nav{padding: 10px;}
+ul li{float: left;margin-left: 20px;list-style: none;}
+ul li a {
+    text-decoration: none;
+    color:brown;
+    margin-left: 50px ;
+    letter-spacing: 1px;
+    font-size: large;
+    font-size: 25px;
+    text-shadow: 
+    0 0 40px rgb(222, 134, 119),
+    0 0 20px rgb(227, 126, 116),
+    0 0 80px rgb(216, 128, 108);}
+ul{margin: 20px;margin-left: 50%;}
+ul li a:hover{color:rgb(255, 0, 0)}
+.home-container{
+    margin-top:10px;
+    margin-left: 70px;
+}
+.home-container h2{font-size: 30px;letter-spacing: 2px;}
+.home-container p{
+   letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-top: 20px;}
+.home-btn{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    background-color:brown;
+    color: aliceblue;
+    border: none;
+    cursor:pointer;
+    border-radius: 20px;
+    font-size: large;
+}.home-btn:hover{background-color:rgb(0, 0, 0);}
+
+
+
+
+
+.about-section{
+    width: 100%;
+    height: 10px;
+    margin-bottom: 400px;
+}
+.bagst1-lounge{
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+.about-container{
+    color: brown;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 250px;
+    margin-top: 20px;
+  }
+.about-container h2{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 10px;
+}
+.bagts2{
+    width: 500px;
+    margin-left: 750px;
+    margin-top:-805px ;
+    border-radius: 15px;
+}
+
+.about-container2{
+    color: brown;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 950px;
+    margin-top: -150px;
+}
+.about-container2 h2{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 10px;
+}
+.back1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 540px;
+    height: 650px;
+    margin-top: -660px;
+    margin-left: 40px;
+}
+.back2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 540px;
+    height: 650px;
+    margin-left: 690px;
+    margin-top: -591x;
+}
+
+
+
+/*popular*/
+.popular-section{
+padding-bottom: 70px;
+}
+.popular-container{
+    text-align: center; 
+}
+.popular-container h3{
+    font-size: 30px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 300px;
+}
+.popular-container h2{
+    margin-top: 10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.dishel1{
+    width: 30%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    margin-left:34px;
+    margin-top: 4%;
+}
+.dishel-1{
+    width: 93%;
+    height: 210px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.dishel1 h3{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.dishel1 h2{
+   color: brown;
+   letter-spacing: 3px;
+}
+.dishel2{
+    width: 30%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 36%;
+    margin-top: -23%;
+}
+.dishel-2{
+    width: 93%;
+    height: 210px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.dishel2 h3{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.dishel2 h2{
+   color: rgb(173, 48, 48);
+   letter-spacing: 3px;
+}
+.dishel3{
+    width: 30%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 69%;
+    margin-top: -32%;
+}
+.dishel-3{
+    width: 93%;
+    height: 210px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.dishel3 h3{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.dishel3 h2{
+   color: rgb(173, 48, 48);
+   letter-spacing: 3px;
+}
+
+
+
+
+/* mod */ 
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: -130px;
+  }
+  .tree {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transform-style: preserve-3d;
+    transform: rotateX(-20deg) rotateY(30deg);
+    animation: treeAnimate 5s linear infinite;
+  }
+  @keyframes treeAnimate {
+    0% {
+      transform: rotateX(-20deg) rotateY(360deg);
+    }
+    100% {
+      transform: rotateX(-20deg) rotateY(0deg);
+    }
+  }
+  .tree div {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: translateY(calc(25px * var(--x))) translateZ(0px);
+  }
+  .tree div.branch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #69c069, #77dd77);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    border-bottom: 5px solid #00000019;
+    transform-origin: bottom;
+    transform: rotateY(calc(90deg * var(--i))) rotateX(30deg) translateZ(28.5px);
+  }
+  .tree div.stem span {
+    position: absolute;
+    top: 110px;
+   /* updated top value */
+    left: calc(50% - 7.5px);
+    width: 15px;
+    height: 50%;
+    background: linear-gradient(90deg, #bb4622, #df7214);
+    border-bottom: 5px solid #00000019;
+    transform-origin: bottom;
+    transform: rotateY(calc(90deg * var(--i))) translateZ(7.5px);
+  }
+  .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    filter: blur(20px);
+    transform-style: preserve-3d;
+    transform: rotateX(90deg) translateZ(-65px);
+  }
+  /* mashin */ 
+.loader {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 300px;
+  }
+  .truckWrapper {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: hidden;
+  }
+  /* truck upper body */
+  .truckBody {
+    width: 130px;
+    height: fit-content;
+    margin-bottom: 6px;
+    animation: motion 1s linear infinite;
+  }
+  /* truck suspension animation*/
+  @keyframes motion {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(3px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  /* truck's tires */
+  .truckTires {
+    width: 130px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 15px;
+    position: absolute;
+    bottom: 0;
+  }
+  .truckTires svg {
+    width: 24px;
+  }
+  .road {
+    width: 100%;
+    height: 1.5px;
+    background-color: #282828;
+    position: relative;
+    bottom: 0;
+    align-self: flex-end;
+    border-radius: 3px;
+  }
+  .road::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    background-color: #282828;
+    right: -50%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 10px solid white;
+  }
+  .road::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: #282828;
+    right: -65%;
+    border-radius: 3px;
+    animation: roadAnimation 1.4s linear infinite;
+    border-left: 4px solid white;
+  }
+  .lampPost {
+    position: absolute;
+    bottom: 0;
+    right: -90%;
+    height: 90px;
+    animation: roadAnimation 1.4s linear infinite;
+  }
+  @keyframes roadAnimation {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-350px);
+    }
+  }
+  
+
+  .words{
+    margin-top: -100px;
+    margin-right: 30px;
+  }
+
+  /* From Uiverse.io by itsavicreation */ 
+.card {
+    --main-color: #000;
+    --submain-color: #78858f;
+    --bg-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    position: relative;
+    width: 300px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--bg-color);
+    margin-left: 800px;
+    margin-top: -320px;
+  }
+  .card__img {
+    height: 192px;
+    width: 100%;
+    margin-left: 15px;
+  }
+  .card__img svg {
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+  .card__avatar {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    background: var(--bg-color);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(50% - 57px);
+  }
+  .card__avatar svg {
+    width: 100px;
+    height: 100px;
+  }
+  .card__title {
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--main-color);
+  }
+  .card__subtitle {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--submain-color);
+  }
+  .card__btn {
+    margin-top: 15px;
+    width: 76px;
+    height: 31px;
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--main-color);
+    background: var(--bg-color);
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+  .card__btn-solid {
+    background: var(--main-color);
+    color: var(--bg-color);
+  }
+  .card__btn:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+  }
+  .card__btn-solid:hover {
+    background: var(--bg-color);
+    color: var(--main-color);
+  }
+  .pro{
+    width:280px;
+    height:150px;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  .pro2{
+    width:100px ;
+    height: 100px;
+    border-radius: 50px;
+  }
+  .text{
+    margin-top: -240px;
+    margin-left: 190px;
+  }
+  .modal-body{
+    color: rgb(54, 72, 112);
+   margin-top: -650px;
+    z-index: 20px;
+    border-radius: 30px;
+    margin-left:30px;
+    width: 90%;
+    height: 400px;
+   box-shadow: 0px 0px 20px rgba(171, 103, 103, 0.75);
+}
+.modal-body input{
+    width: 30%;
+    height: 40px;
+    z-index: 20px;
+    border:none;
+    border-radius: 10px;margin-top: -20px;
+    background: wheat;
+    margin-top: 40px;margin-left: 300px;
+    box-shadow:  
+  0 0 10px rgb(222, 134, 119),
+  0 0 20px rgb(227, 126, 116),
+  0 0 40px rgb(216, 128, 108);
+}
+.modal-body button{
+  text-decoration:none;
+  width: 30%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 15px;
+  z-index: 20;
+  background: wheat;
+  border:hotpink;
+  margin-left: 300px;
+  margin-top: 40px;
+  box-shadow:  
+  0 0 10px rgb(222, 134, 119),
+  0 0 20px rgb(227, 126, 116),
+  0 0 40px rgb(216, 128, 108);
+}
+.modal-body h3 {
+  font-size: 60px;
+    margin-top: -100;
+    margin-left: 330px;
+    color: brown;
+    text-shadow: 
+    0 0 10px rgb(222, 134, 119),
+    0 0 20px rgb(227, 126, 116),
+    0 0 80px rgb(216, 128, 108);
+}
+.modal-body2{
+  margin-left: 450px;
+  margin-top: -320px;
+}
+.rll1{
+  width: 280px;
+    height: 190px;
+    margin-top: -170px;
+}
